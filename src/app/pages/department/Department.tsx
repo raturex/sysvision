@@ -163,16 +163,7 @@ export function DepartmentPage() {
                                         placeholder=""
                                     />
                                 </div>
-                                <div className="mb-10 col-lg-6">
-                                    <label className="form-label">Type d'astreinte</label>
-                                    <select className="form-select" aria-label="Select example">
-                                        <option>Sélectionnez un élément</option>
-                                        <option value="1">Hebdomadaire</option>
-                                        <option value="2">Mensuel</option>
-                                        <option value="3">Trimestriel</option>
-                                        <option value="3">Annuel</option>
-                                    </select>
-                                </div>
+                                
                             </div>
                             <div className="modal-footer">
                                 <button

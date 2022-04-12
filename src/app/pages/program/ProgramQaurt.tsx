@@ -12,135 +12,1000 @@ export function ProgramQuartPage() {
     }
     return (
         <>
-            <PageTitle breadcrumbs={[]}>Programme d'astreinte du Quart</PageTitle>
+            <PageTitle breadcrumbs={[]}>Planning d'astreinte du Quart</PageTitle>
 
-            <div className="row g-5 g-xl-10 mb-xl-10">
+            <div className="row">
+                <div className="col-xxl-3 row">
+                    <div className="col-lg-12">
+                        <form action="#" data-select2-id="select2-data-142-rc5e">
 
-                <div className="col-md-6 col-lg-6 col-xl-6 col-xxl-3 mb-md-5 mb-xl-10">
+                            <div className="card" data-select2-id="select2-data-141-ylgu">
 
-                    <div className="card card-flush h-lg-50">
+                                <div className="card-body" data-select2-id="select2-data-140-3tbj">
 
-                        <div className="card-header pt-5">
+                                    <div className="position-relative">
 
-                            <h3 className="card-title text-gray-800">Highlights</h3>
+                                        <h5 className="fw-bolder">Etablir un Planning</h5>
+                                    </div>
 
-                            <div className="card-toolbar d-none">
+                                    <div className="separator separator-dashed my-8"></div>
 
-                                <div data-kt-daterangepicker="true" data-kt-daterangepicker-opens="left" className="btn btn-sm btn-light d-flex align-items-center px-4">
+                                    <div className="mb-5" data-select2-id="select2-data-139-mvat">
+                                        <label className="fs-6 form-label fw-bolder text-dark">Type planification</label>
 
-                                    <div className="text-gray-600 fw-bolder">9 mars 2022 - 7 avr. 2022</div>
+                                        <select className="form-select form-select select2-hidden-accessible" data-control="select2" data-placeholder="In Progress" data-hide-search="true" data-select2-id="select2-data-10-nygq" aria-hidden="true">
+                                            <option value="" data-select2-id="select2-data-143-auu0">Sélectionnez un type</option>
+                                            <option value="1" data-select2-id="select2-data-144-8joq">Supervision Normale</option>
+                                            <option value="3" data-select2-id="select2-data-145-amcn">Supervision Quart</option>
+                                        </select>
 
-                                    <span className="svg-icon svg-icon-1 ms-2 me-0">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                            <path opacity="0.3" d="M21 22H3C2.4 22 2 21.6 2 21V5C2 4.4 2.4 4 3 4H21C21.6 4 22 4.4 22 5V21C22 21.6 21.6 22 21 22Z" fill="currentColor"></path>
-                                            <path d="M6 6C5.4 6 5 5.6 5 5V3C5 2.4 5.4 2 6 2C6.6 2 7 2.4 7 3V5C7 5.6 6.6 6 6 6ZM11 5V3C11 2.4 10.6 2 10 2C9.4 2 9 2.4 9 3V5C9 5.6 9.4 6 10 6C10.6 6 11 5.6 11 5ZM15 5V3C15 2.4 14.6 2 14 2C13.4 2 13 2.4 13 3V5C13 5.6 13.4 6 14 6C14.6 6 15 5.6 15 5ZM19 5V3C19 2.4 18.6 2 18 2C17.4 2 17 2.4 17 3V5C17 5.6 17.4 6 18 6C18.6 6 19 5.6 19 5Z" fill="currentColor"></path>
-                                            <path d="M8.8 13.1C9.2 13.1 9.5 13 9.7 12.8C9.9 12.6 10.1 12.3 10.1 11.9C10.1 11.6 10 11.3 9.8 11.1C9.6 10.9 9.3 10.8 9 10.8C8.8 10.8 8.59999 10.8 8.39999 10.9C8.19999 11 8.1 11.1 8 11.2C7.9 11.3 7.8 11.4 7.7 11.6C7.6 11.8 7.5 11.9 7.5 12.1C7.5 12.2 7.4 12.2 7.3 12.3C7.2 12.4 7.09999 12.4 6.89999 12.4C6.69999 12.4 6.6 12.3 6.5 12.2C6.4 12.1 6.3 11.9 6.3 11.7C6.3 11.5 6.4 11.3 6.5 11.1C6.6 10.9 6.8 10.7 7 10.5C7.2 10.3 7.49999 10.1 7.89999 10C8.29999 9.90003 8.60001 9.80003 9.10001 9.80003C9.50001 9.80003 9.80001 9.90003 10.1 10C10.4 10.1 10.7 10.3 10.9 10.4C11.1 10.5 11.3 10.8 11.4 11.1C11.5 11.4 11.6 11.6 11.6 11.9C11.6 12.3 11.5 12.6 11.3 12.9C11.1 13.2 10.9 13.5 10.6 13.7C10.9 13.9 11.2 14.1 11.4 14.3C11.6 14.5 11.8 14.7 11.9 15C12 15.3 12.1 15.5 12.1 15.8C12.1 16.2 12 16.5 11.9 16.8C11.8 17.1 11.5 17.4 11.3 17.7C11.1 18 10.7 18.2 10.3 18.3C9.9 18.4 9.5 18.5 9 18.5C8.5 18.5 8.1 18.4 7.7 18.2C7.3 18 7 17.8 6.8 17.6C6.6 17.4 6.4 17.1 6.3 16.8C6.2 16.5 6.10001 16.3 6.10001 16.1C6.10001 15.9 6.2 15.7 6.3 15.6C6.4 15.5 6.6 15.4 6.8 15.4C6.9 15.4 7.00001 15.4 7.10001 15.5C7.20001 15.6 7.3 15.6 7.3 15.7C7.5 16.2 7.7 16.6 8 16.9C8.3 17.2 8.6 17.3 9 17.3C9.2 17.3 9.5 17.2 9.7 17.1C9.9 17 10.1 16.8 10.3 16.6C10.5 16.4 10.5 16.1 10.5 15.8C10.5 15.3 10.4 15 10.1 14.7C9.80001 14.4 9.50001 14.3 9.10001 14.3C9.00001 14.3 8.9 14.3 8.7 14.3C8.5 14.3 8.39999 14.3 8.39999 14.3C8.19999 14.3 7.99999 14.2 7.89999 14.1C7.79999 14 7.7 13.8 7.7 13.7C7.7 13.5 7.79999 13.4 7.89999 13.2C7.99999 13 8.2 13 8.5 13H8.8V13.1ZM15.3 17.5V12.2C14.3 13 13.6 13.3 13.3 13.3C13.1 13.3 13 13.2 12.9 13.1C12.8 13 12.7 12.8 12.7 12.6C12.7 12.4 12.8 12.3 12.9 12.2C13 12.1 13.2 12 13.6 11.8C14.1 11.6 14.5 11.3 14.7 11.1C14.9 10.9 15.2 10.6 15.5 10.3C15.8 10 15.9 9.80003 15.9 9.70003C15.9 9.60003 16.1 9.60004 16.3 9.60004C16.5 9.60004 16.7 9.70003 16.8 9.80003C16.9 9.90003 17 10.2 17 10.5V17.2C17 18 16.7 18.4 16.2 18.4C16 18.4 15.8 18.3 15.6 18.2C15.4 18.1 15.3 17.8 15.3 17.5Z" fill="currentColor"></path>
-                                        </svg>
-                                    </span>
+                                    </div>
+
+                                    <div className="mb-5">
+                                        <label className="fs-6 form-label fw-bolder text-dark">Fréquence</label>
+                                        <select className="form-select form-select select2-hidden-accessible" data-control="select2" data-placeholder="In Progress" data-hide-search="true" data-select2-id="select2-data-10-nygq" aria-hidden="true">
+                                            <option value="" data-select2-id="select2-data-143-auu0">Sélectionnez une fréquence</option>
+                                            <option value="1" data-select2-id="select2-data-144-8joq">Hebdomadaire</option>
+                                            <option value="3" data-select2-id="select2-data-145-amcn">Mensuelle</option>
+                                            <option value="3" data-select2-id="select2-data-145-amcn" disabled>Trimestrielle</option>
+                                            <option value="3" data-select2-id="select2-data-145-amcn" disabled>Annuelle</option>
+                                        </select>
+                                    </div>
+
+                                    <div className="mb-5">
+                                        <button className=" fs-6 btn w-100 btn-light-success ">Génerer</button>
+                                    </div>
 
                                 </div>
 
                             </div>
+
+                        </form>
+                    </div>
+                    <div className="col-lg-12">
+                        <div className="mb-5">
+                            <a href="#" className="fs-6 btn w-100 btn-secondary" data-bs-toggle="modal" data-bs-target="#kt_modal_new_target"> <i className="bi bi-eye fs-2x"></i> Visualiser le planning</a>
+                        </div>
+                        <div className="mb-5">
+                            <button className=" fs-6 btn w-100 btn-info ">Bon pour accord</button>
 
                         </div>
-
-                        <div className="card-body pt-5">
-
-                            <div className="d-flex flex-stack">
-
-                                <div className="text-gray-700 fw-bold fs-6 me-2">Avg. Client Rating</div>
-
-                                <div className="d-flex align-items-senter">
-
-                                    <span className="svg-icon svg-icon-2 svg-icon-success me-2">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                            <rect opacity="0.5" x="16.9497" y="8.46448" width="13" height="2" rx="1" transform="rotate(135 16.9497 8.46448)" fill="currentColor"></rect>
-                                            <path d="M14.8284 9.97157L14.8284 15.8891C14.8284 16.4749 15.3033 16.9497 15.8891 16.9497C16.4749 16.9497 16.9497 16.4749 16.9497 15.8891L16.9497 8.05025C16.9497 7.49797 16.502 7.05025 15.9497 7.05025L8.11091 7.05025C7.52512 7.05025 7.05025 7.52513 7.05025 8.11091C7.05025 8.6967 7.52512 9.17157 8.11091 9.17157L14.0284 9.17157C14.4703 9.17157 14.8284 9.52975 14.8284 9.97157Z" fill="currentColor"></path>
-                                        </svg>
-                                    </span>
-
-                                    <span className="text-gray-900 fw-boldest fs-6">7.8</span>
-
-                                    <span className="text-gray-400 fw-bolder fs-6">/10</span>
-                                </div>
-
-                            </div>
-
-                            <div className="separator separator-dashed my-3"></div>
-
-                            <div className="d-flex flex-stack">
-
-                                <div className="text-gray-700 fw-bold fs-6 me-2">Avg. Quotes</div>
-
-                                <div className="d-flex align-items-senter">
-
-                                    <span className="svg-icon svg-icon-2 svg-icon-danger me-2">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                            <rect opacity="0.5" x="7.05026" y="15.5355" width="13" height="2" rx="1" transform="rotate(-45 7.05026 15.5355)" fill="currentColor"></rect>
-                                            <path d="M9.17158 14.0284L9.17158 8.11091C9.17158 7.52513 8.6967 7.05025 8.11092 7.05025C7.52513 7.05025 7.05026 7.52512 7.05026 8.11091L7.05026 15.9497C7.05026 16.502 7.49797 16.9497 8.05026 16.9497L15.8891 16.9497C16.4749 16.9497 16.9498 16.4749 16.9498 15.8891C16.9498 15.3033 16.4749 14.8284 15.8891 14.8284L9.97158 14.8284C9.52975 14.8284 9.17158 14.4703 9.17158 14.0284Z" fill="currentColor"></path>
-                                        </svg>
-                                    </span>
-
-                                    <span className="text-gray-900 fw-boldest fs-6">730</span>
-
-                                </div>
-
-                            </div>
-
-                            <div className="separator separator-dashed my-3"></div>
-
-                            <div className="d-flex flex-stack">
-
-                                <div className="text-gray-700 fw-bold fs-6 me-2">Avg. Agent Earnings</div>
-
-                                <div className="d-flex align-items-senter">
-
-                                    <span className="svg-icon svg-icon-2 svg-icon-success me-2">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                            <rect opacity="0.5" x="16.9497" y="8.46448" width="13" height="2" rx="1" transform="rotate(135 16.9497 8.46448)" fill="currentColor"></rect>
-                                            <path d="M14.8284 9.97157L14.8284 15.8891C14.8284 16.4749 15.3033 16.9497 15.8891 16.9497C16.4749 16.9497 16.9497 16.4749 16.9497 15.8891L16.9497 8.05025C16.9497 7.49797 16.502 7.05025 15.9497 7.05025L8.11091 7.05025C7.52512 7.05025 7.05025 7.52513 7.05025 8.11091C7.05025 8.6967 7.52512 9.17157 8.11091 9.17157L14.0284 9.17157C14.4703 9.17157 14.8284 9.52975 14.8284 9.97157Z" fill="currentColor"></path>
-                                        </svg>
-                                    </span>
-
-                                    <span className="text-gray-900 fw-boldest fs-6">$2,309</span>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
                     </div>
 
                 </div>
-                <div className="card h-md-100">
-
-                    <div className="card-header position-relative py-0 border-bottom-1">
-
-                        <h3 className="card-title text-gray-800 fw-bolder">Programme d'astreinte </h3>
-
-                        <ul className="nav nav-stretch nav-pills nav-pills-custom d-flex mt-4">
-
-                            <li className="nav-item p-0 ms-0">
-                                <a className="nav-link btn btn-color-gray-400 flex-center px-3 active" data-kt-timeline-widget-4="tab" data-bs-toggle="tab" href="#kt_timeline_widget_4_tab_week">
-
-                                    <span className="nav-text fw-bold fs-4 mb-3">Week</span>
-
-                                    <span className="bullet-custom position-absolute z-index-2 w-100 h-1px top-100 bottom-n100 bg-primary rounded"></span>
-
-                                </a>
-                            </li>
-                        </ul>
-
+                <div className="col-xxl-9">
+                    <div className="d-flex flex-wrap flex-stack pb-7">
+                        <div className="d-flex flex-wrap align-items-center my-1">
+                            <h4 className="fw-bolder me-5 my-1"> Planning Hedbomadaire</h4> <h4 className="fw-bolder me-5 my-1">|</h4> <h3 className="fw-bolder me-5 my-1">Semaine du </h3> <div className="badge badge-light-warning"> 09 Avril - 17 Avril</div>
+                        </div>
                     </div>
 
-                    
+                    <div className="card card-flush h-lg-100">
 
+                        <div className="card-body p-9 pt-4">
+
+                            <ul className="nav nav-pills d-flex flex-nowrap hover-scroll-x py-2">
+
+                                <li className="nav-item me-6">
+                                    <a className="nav-link btn d-flex flex-column flex-center rounded-pill min-w-85px me-2 py-4 px-3 btn-active-primary" data-bs-toggle="tab" href="#kt_schedule_day_0">
+                                        <span className="opacity-50 fs-7 fw-bold">Lun</span>
+                                        <span className="fs-6 fw-bolder">22</span>
+                                    </a>
+                                </li>
+
+
+                                <li className="nav-item me-6">
+                                    <a className="nav-link btn d-flex flex-column flex-center rounded-pill min-w-85px me-2 py-4 px-3 btn-active-primary active" data-bs-toggle="tab" href="#kt_schedule_day_1">
+                                        <span className="opacity-50 fs-7 fw-bold">Mar</span>
+                                        <span className="fs-6 fw-bolder">23</span>
+                                    </a>
+                                </li>
+
+
+                                <li className="nav-item me-6">
+                                    <a className="nav-link btn d-flex flex-column flex-center rounded-pill min-w-85px me-2 py-4 px-3 btn-active-primary" data-bs-toggle="tab" href="#kt_schedule_day_2">
+                                        <span className="opacity-50 fs-7 fw-bold">Mer</span>
+                                        <span className="fs-6 fw-bolder">24</span>
+                                    </a>
+                                </li>
+
+
+                                <li className="nav-item me-6">
+                                    <a className="nav-link btn d-flex flex-column flex-center rounded-pill min-w-85px me-2 py-4 px-3 btn-active-primary" data-bs-toggle="tab" href="#kt_schedule_day_3">
+                                        <span className="opacity-50 fs-7 fw-bold">Jeu</span>
+                                        <span className="fs-6 fw-bolder">25</span>
+                                    </a>
+                                </li>
+
+
+                                <li className="nav-item me-6">
+                                    <a className="nav-link btn d-flex flex-column flex-center rounded-pill min-w-85px me-2 py-4 px-3 btn-active-primary" data-bs-toggle="tab" href="#kt_schedule_day_4">
+                                        <span className="opacity-50 fs-7 fw-bold">Ven</span>
+                                        <span className="fs-6 fw-bolder">26</span>
+                                    </a>
+                                </li>
+
+
+                                <li className="nav-item me-6">
+                                    <a className="nav-link btn d-flex flex-column flex-center rounded-pill min-w-85px me-2 py-4 px-3 btn-active-primary" data-bs-toggle="tab" href="#kt_schedule_day_5">
+                                        <span className="opacity-50 fs-7 fw-bold">Sam</span>
+                                        <span className="fs-6 fw-bolder">27</span>
+                                    </a>
+                                </li>
+
+
+                                <li className="nav-item me-6">
+                                    <a className="nav-link btn d-flex flex-column flex-center rounded-pill min-w-85px me-2 py-4 px-3 btn-active-primary" data-bs-toggle="tab" href="#kt_schedule_day_6">
+                                        <span className="opacity-50 fs-7 fw-bold">Dim</span>
+                                        <span className="fs-6 fw-bolder">28</span>
+                                    </a>
+                                </li>
+                            </ul>                       {/* end::Dates*/}
+                            {/* begin::Tab Content*/}
+                            <div className="tab-content">
+                                {/* begin::Day*/}
+                                <div id="kt_schedule_day_0" className="tab-pane fade show active">
+                                    {/* begin::Time*/}
+                                    <div className="d-flex flex-stack position-relative mt-8">
+                                        {/* begin::Bar*/}
+
+                                        <div className="position-absolute h-100 w-4px bg-success rounded top-0 start-0"></div>
+
+                                        {/* end::Bar*/}
+                                        {/* begin::Info*/}
+                                        <div className="fw-bold ms-5 text-gray-600">
+                                            {/* begin::Time*/}
+                                            <div className="fs-5">07:30 - 12:30
+                                            </div>
+                                            {/* end::Time*/}
+                                            {/* begin::Title*/}
+                                            <a href="#" className="fs-5 fw-bolder text-gray-800 text-hover-primary mb-2">Ouattara Asta </a>
+                                            {/* end::Title*/}
+                                            {/* begin::User*/}
+                                            <div className="text-gray-400">Contacts : &nbsp;
+                                                <a href="#">07 08 01 77 30</a></div>
+                                            {/* end::User*/}
+                                        </div>
+                                        {/* end::Info*/}
+                                        {/* begin::Action*/}
+                                        <a href="#" className="btn btn-bg-light btn-active-color-primary btn-sm"> <i className="bi bi-eye fs-1"></i>Voir Rapport</a>
+                                        {/* end::Action*/}
+                                    </div>
+                                    {/* end::Time*/}
+                                    {/* begin::Time*/}
+                                    <div className="d-flex flex-stack position-relative mt-8">
+                                        {/* begin::Bar*/}
+                                        <div className="position-absolute h-100 w-4px bg-warning rounded top-0 start-0"></div>
+                                        {/* end::Bar*/}
+                                        {/* begin::Info*/}
+                                        <div className="fw-bold ms-5 text-gray-600">
+                                            {/* begin::Time*/}
+                                            <div className="fs-5">11:00 - 11:45
+                                            </div>
+                                            {/* end::Time*/}
+                                            {/* begin::Title*/}
+                                            <a href="#" className="fs-5 fw-bolder text-gray-800 text-hover-primary mb-2">Sogolon Tchedjougou</a>
+                                            {/* end::Title*/}
+                                            {/* begin::User*/}
+                                            <div className="text-gray-400">Contacts : &nbsp;
+                                                <a href="#">Mark Randall</a></div>
+                                            {/* end::User*/}
+                                        </div>
+                                        {/* end::Info*/}
+                                        {/* begin::Action*/}
+                                        <a href="#" className="btn btn-bg-light btn-active-color-primary btn-sm"> <i className="bi bi-eye fs-1"></i>Voir Rapport</a>
+                                        {/* end::Action*/}
+                                    </div>
+                                    {/* end::Time*/}
+                                    {/* begin::Time*/}
+                                    <div className="d-flex flex-stack position-relative mt-8">
+                                        {/* begin::Bar*/}
+                                        <div className="position-absolute h-100 w-4px bg-danger rounded top-0 start-0"></div>
+                                        {/* end::Bar*/}
+                                        {/* begin::Info*/}
+                                        <div className="fw-bold ms-5 text-gray-600">
+                                            {/* begin::Time*/}
+                                            <div className="fs-5">16:30 - 17:30
+                                            </div>
+                                            {/* end::Time*/}
+                                            {/* begin::Title*/}
+                                            <a href="#" className="fs-5 fw-bolder text-gray-800 text-hover-primary mb-2">Marketing Campaign Discussion</a>
+                                            {/* end::Title*/}
+                                            {/* begin::User*/}
+                                            <div className="text-gray-400">Contacts : &nbsp;
+                                                <a href="#">Walter White</a></div>
+                                            {/* end::User*/}
+                                        </div>
+                                        {/* end::Info*/}
+                                        {/* begin::Action*/}
+                                        <a href="#" className="btn btn-bg-light btn-active-color-primary btn-sm"> <i className="bi bi-eye fs-1"></i>Voir Rapport</a>
+                                        {/* end::Action*/}
+                                    </div>
+                                    {/* end::Time*/}
+                                </div>
+                                {/* end::Day*/}
+                                {/* begin::Day*/}
+                                <div id="kt_schedule_day_1" className="tab-pane fade show">
+                                    {/* begin::Time*/}
+                                    <div className="d-flex flex-stack position-relative mt-8">
+                                        {/* begin::Bar*/}
+                                        <div className="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+                                        {/* end::Bar*/}
+                                        {/* begin::Info*/}
+                                        <div className="fw-bold ms-5 text-gray-600">
+                                            {/* begin::Time*/}
+                                            <div className="fs-5">14:30 - 15:30
+                                            </div>
+                                            {/* end::Time*/}
+                                            {/* begin::Title*/}
+                                            <a href="#" className="fs-5 fw-bolder text-gray-800 text-hover-primary mb-2">Sales Pitch Proposal</a>
+                                            {/* end::Title*/}
+                                            {/* begin::User*/}
+                                            <div className="text-gray-400">Contacts : &nbsp;
+                                                <a href="#">Kendell Trevor</a></div>
+                                            {/* end::User*/}
+                                        </div>
+                                        {/* end::Info*/}
+                                        {/* begin::Action*/}
+                                        <a href="#" className="btn btn-bg-light btn-active-color-primary btn-sm"> <i className="bi bi-eye fs-1"></i>Voir Rapport</a>
+                                        {/* end::Action*/}
+                                    </div>
+                                    {/* end::Time*/}
+                                    {/* begin::Time*/}
+                                    <div className="d-flex flex-stack position-relative mt-8">
+                                        {/* begin::Bar*/}
+                                        <div className="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+                                        {/* end::Bar*/}
+                                        {/* begin::Info*/}
+                                        <div className="fw-bold ms-5 text-gray-600">
+                                            {/* begin::Time*/}
+                                            <div className="fs-5">16:30 - 17:30
+                                            </div>
+                                            {/* end::Time*/}
+                                            {/* begin::Title*/}
+                                            <a href="#" className="fs-5 fw-bolder text-gray-800 text-hover-primary mb-2">Lunch &amp; Learn Catch Up</a>
+                                            {/* end::Title*/}
+                                            {/* begin::User*/}
+                                            <div className="text-gray-400">Contacts : &nbsp;
+                                                <a href="#">Peter Marcus</a></div>
+                                            {/* end::User*/}
+                                        </div>
+                                        {/* end::Info*/}
+                                        {/* begin::Action*/}
+                                        <a href="#" className="btn btn-bg-light btn-active-color-primary btn-sm"> <i className="bi bi-eye fs-1"></i>Voir Rapport</a>
+                                        {/* end::Action*/}
+                                    </div>
+                                    {/* end::Time*/}
+                                    {/* begin::Time*/}
+                                    <div className="d-flex flex-stack position-relative mt-8">
+                                        {/* begin::Bar*/}
+                                        <div className="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+                                        {/* end::Bar*/}
+                                        {/* begin::Info*/}
+                                        <div className="fw-bold ms-5 text-gray-600">
+                                            {/* begin::Time*/}
+                                            <div className="fs-5">10:00 - 11:00
+                                            </div>
+                                            {/* end::Time*/}
+                                            {/* begin::Title*/}
+                                            <a href="#" className="fs-5 fw-bolder text-gray-800 text-hover-primary mb-2">Koudio Kouakou Jacob</a>
+                                            {/* end::Title*/}
+                                            {/* begin::User*/}
+                                            <div className="text-gray-400">Contacts : &nbsp;
+                                                <a href="#">Naomi Hayabusa</a></div>
+                                            {/* end::User*/}
+                                        </div>
+                                        {/* end::Info*/}
+                                        {/* begin::Action*/}
+                                        <a href="#" className="btn btn-bg-light btn-active-color-primary btn-sm"> <i className="bi bi-eye fs-1"></i>Voir Rapport</a>
+                                        {/* end::Action*/}
+                                    </div>
+                                    {/* end::Time*/}
+                                </div>
+                                {/* end::Day*/}
+                                {/* begin::Day*/}
+                                <div id="kt_schedule_day_2" className="tab-pane fade show">
+                                    {/* begin::Time*/}
+                                    <div className="d-flex flex-stack position-relative mt-8">
+                                        {/* begin::Bar*/}
+                                        <div className="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+                                        {/* end::Bar*/}
+                                        {/* begin::Info*/}
+                                        <div className="fw-bold ms-5 text-gray-600">
+                                            {/* begin::Time*/}
+                                            <div className="fs-5">14:30 - 15:30
+                                            </div>
+                                            {/* end::Time*/}
+                                            {/* begin::Title*/}
+                                            <a href="#" className="fs-5 fw-bolder text-gray-800 text-hover-primary mb-2">Team Backlog Grooming Session</a>
+                                            {/* end::Title*/}
+                                            {/* begin::User*/}
+                                            <div className="text-gray-400">Contacts : &nbsp;
+                                                <a href="#">Michael Walters</a></div>
+                                            {/* end::User*/}
+                                        </div>
+                                        {/* end::Info*/}
+                                        {/* begin::Action*/}
+                                        <a href="#" className="btn btn-bg-light btn-active-color-primary btn-sm"> <i className="bi bi-eye fs-1"></i>Voir Rapport</a>
+                                        {/* end::Action*/}
+                                    </div>
+                                    {/* end::Time*/}
+                                    {/* begin::Time*/}
+                                    <div className="d-flex flex-stack position-relative mt-8">
+                                        {/* begin::Bar*/}
+                                        <div className="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+                                        {/* end::Bar*/}
+                                        {/* begin::Info*/}
+                                        <div className="fw-bold ms-5 text-gray-600">
+                                            {/* begin::Time*/}
+                                            <div className="fs-5">12:00 - 13:00
+                                            </div>
+                                            {/* end::Time*/}
+                                            {/* begin::Title*/}
+                                            <a href="#" className="fs-5 fw-bolder text-gray-800 text-hover-primary mb-2">Dashboard UI/UX Design Review</a>
+                                            {/* end::Title*/}
+                                            {/* begin::User*/}
+                                            <div className="text-gray-400">Contacts : &nbsp;
+                                                <a href="#">Peter Marcus</a></div>
+                                            {/* end::User*/}
+                                        </div>
+                                        {/* end::Info*/}
+                                        {/* begin::Action*/}
+                                        <a href="#" className="btn btn-bg-light btn-active-color-primary btn-sm"> <i className="bi bi-eye fs-1"></i>Voir Rapport</a>
+                                        {/* end::Action*/}
+                                    </div>
+                                    {/* end::Time*/}
+                                    {/* begin::Time*/}
+                                    <div className="d-flex flex-stack position-relative mt-8">
+                                        {/* begin::Bar*/}
+                                        <div className="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+                                        {/* end::Bar*/}
+                                        {/* begin::Info*/}
+                                        <div className="fw-bold ms-5 text-gray-600">
+                                            {/* begin::Time*/}
+                                            <div className="fs-5">12:00 - 13:00
+                                            </div>
+                                            {/* end::Time*/}
+                                            {/* begin::Title*/}
+                                            <a href="#" className="fs-5 fw-bolder text-gray-800 text-hover-primary mb-2">Marketing Campaign Discussion</a>
+                                            {/* end::Title*/}
+                                            {/* begin::User*/}
+                                            <div className="text-gray-400">Contacts : &nbsp;
+                                                <a href="#">Kendell Trevor</a></div>
+                                            {/* end::User*/}
+                                        </div>
+                                        {/* end::Info*/}
+                                        {/* begin::Action*/}
+                                        <a href="#" className="btn btn-bg-light btn-active-color-primary btn-sm"> <i className="bi bi-eye fs-1"></i>Voir Rapport</a>
+                                        {/* end::Action*/}
+                                    </div>
+                                    {/* end::Time*/}
+                                </div>
+                                {/* end::Day*/}
+                                {/* begin::Day*/}
+                                <div id="kt_schedule_day_3" className="tab-pane fade show">
+                                    {/* begin::Time*/}
+                                    <div className="d-flex flex-stack position-relative mt-8">
+                                        {/* begin::Bar*/}
+                                        <div className="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+                                        {/* end::Bar*/}
+                                        {/* begin::Info*/}
+                                        <div className="fw-bold ms-5 text-gray-600">
+                                            {/* begin::Time*/}
+                                            <div className="fs-5">13:00 - 14:00
+                                            </div>
+                                            {/* end::Time*/}
+                                            {/* begin::Title*/}
+                                            <a href="#" className="fs-5 fw-bolder text-gray-800 text-hover-primary mb-2">Dashboard UI/UX Design Review</a>
+                                            {/* end::Title*/}
+                                            {/* begin::User*/}
+                                            <div className="text-gray-400">Contacts : &nbsp;
+                                                <a href="#">David Stevenson</a></div>
+                                            {/* end::User*/}
+                                        </div>
+                                        {/* end::Info*/}
+                                        {/* begin::Action*/}
+                                        <a href="#" className="btn btn-bg-light btn-active-color-primary btn-sm"> <i className="bi bi-eye fs-1"></i>Voir Rapport</a>
+                                        {/* end::Action*/}
+                                    </div>
+                                    {/* end::Time*/}
+                                    {/* begin::Time*/}
+                                    <div className="d-flex flex-stack position-relative mt-8">
+                                        {/* begin::Bar*/}
+                                        <div className="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+                                        {/* end::Bar*/}
+                                        {/* begin::Info*/}
+                                        <div className="fw-bold ms-5 text-gray-600">
+                                            {/* begin::Time*/}
+                                            <div className="fs-5">9:00 - 10:00
+                                            </div>
+                                            {/* end::Time*/}
+                                            {/* begin::Title*/}
+                                            <a href="#" className="fs-5 fw-bolder text-gray-800 text-hover-primary mb-2">Weekly Team Stand-Up</a>
+                                            {/* end::Title*/}
+                                            {/* begin::User*/}
+                                            <div className="text-gray-400">Contacts : &nbsp;
+                                                <a href="#">Caleb Donaldson</a></div>
+                                            {/* end::User*/}
+                                        </div>
+                                        {/* end::Info*/}
+                                        {/* begin::Action*/}
+                                        <a href="#" className="btn btn-bg-light btn-active-color-primary btn-sm"> <i className="bi bi-eye fs-1"></i>Voir Rapport</a>
+                                        {/* end::Action*/}
+                                    </div>
+                                    {/* end::Time*/}
+                                    {/* begin::Time*/}
+                                    <div className="d-flex flex-stack position-relative mt-8">
+                                        {/* begin::Bar*/}
+                                        <div className="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+                                        {/* end::Bar*/}
+                                        {/* begin::Info*/}
+                                        <div className="fw-bold ms-5 text-gray-600">
+                                            {/* begin::Time*/}
+                                            <div className="fs-5">16:30 - 17:30
+                                            </div>
+                                            {/* end::Time*/}
+                                            {/* begin::Title*/}
+                                            <a href="#" className="fs-5 fw-bolder text-gray-800 text-hover-primary mb-2">Weekly Team Stand-Up</a>
+                                            {/* end::Title*/}
+                                            {/* begin::User*/}
+                                            <div className="text-gray-400">Contacts : &nbsp;
+                                                <a href="#">David Stevenson</a></div>
+                                            {/* end::User*/}
+                                        </div>
+                                        {/* end::Info*/}
+                                        {/* begin::Action*/}
+                                        <a href="#" className="btn btn-bg-light btn-active-color-primary btn-sm"> <i className="bi bi-eye fs-1"></i>Voir Rapport</a>
+                                        {/* end::Action*/}
+                                    </div>
+                                    {/* end::Time*/}
+                                </div>
+                                {/* end::Day*/}
+                                {/* begin::Day*/}
+                                <div id="kt_schedule_day_4" className="tab-pane fade show">
+                                    {/* begin::Time*/}
+                                    <div className="d-flex flex-stack position-relative mt-8">
+                                        {/* begin::Bar*/}
+                                        <div className="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+                                        {/* end::Bar*/}
+                                        {/* begin::Info*/}
+                                        <div className="fw-bold ms-5 text-gray-600">
+                                            {/* begin::Time*/}
+                                            <div className="fs-5">16:30 - 17:30
+                                            </div>
+                                            {/* end::Time*/}
+                                            {/* begin::Title*/}
+                                            <a href="#" className="fs-5 fw-bolder text-gray-800 text-hover-primary mb-2">Team Backlog Grooming Session</a>
+                                            {/* end::Title*/}
+                                            {/* begin::User*/}
+                                            <div className="text-gray-400">Contacts : &nbsp;
+                                                <a href="#">Michael Walters</a></div>
+                                            {/* end::User*/}
+                                        </div>
+                                        {/* end::Info*/}
+                                        {/* begin::Action*/}
+                                        <a href="#" className="btn btn-bg-light btn-active-color-primary btn-sm"> <i className="bi bi-eye fs-1"></i>Voir Rapport</a>
+                                        {/* end::Action*/}
+                                    </div>
+                                    {/* end::Time*/}
+                                    {/* begin::Time*/}
+                                    <div className="d-flex flex-stack position-relative mt-8">
+                                        {/* begin::Bar*/}
+                                        <div className="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+                                        {/* end::Bar*/}
+                                        {/* begin::Info*/}
+                                        <div className="fw-bold ms-5 text-gray-600">
+                                            {/* begin::Time*/}
+                                            <div className="fs-5">12:00 - 13:00
+                                            </div>
+                                            {/* end::Time*/}
+                                            {/* begin::Title*/}
+                                            <a href="#" className="fs-5 fw-bolder text-gray-800 text-hover-primary mb-2">Committee Review Approvals</a>
+                                            {/* end::Title*/}
+                                            {/* begin::User*/}
+                                            <div className="text-gray-400">Contacts : &nbsp;
+                                                <a href="#">Karina Clarke</a></div>
+                                            {/* end::User*/}
+                                        </div>
+                                        {/* end::Info*/}
+                                        {/* begin::Action*/}
+                                        <a href="#" className="btn btn-bg-light btn-active-color-primary btn-sm"> <i className="bi bi-eye fs-1"></i>Voir Rapport</a>
+                                        {/* end::Action*/}
+                                    </div>
+                                    {/* end::Time*/}
+                                    {/* begin::Time*/}
+                                    <div className="d-flex flex-stack position-relative mt-8">
+                                        {/* begin::Bar*/}
+                                        <div className="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+                                        {/* end::Bar*/}
+                                        {/* begin::Info*/}
+                                        <div className="fw-bold ms-5 text-gray-600">
+                                            {/* begin::Time*/}
+                                            <div className="fs-5">9:00 - 10:00
+                                            </div>
+                                            {/* end::Time*/}
+                                            {/* begin::Title*/}
+                                            <a href="#" className="fs-5 fw-bolder text-gray-800 text-hover-primary mb-2">Creative Content Initiative</a>
+                                            {/* end::Title*/}
+                                            {/* begin::User*/}
+                                            <div className="text-gray-400">Contacts : &nbsp;
+                                                <a href="#">Kendell Trevor</a></div>
+                                            {/* end::User*/}
+                                        </div>
+                                        {/* end::Info*/}
+                                        {/* begin::Action*/}
+                                        <a href="#" className="btn btn-bg-light btn-active-color-primary btn-sm"> <i className="bi bi-eye fs-1"></i>Voir Rapport</a>
+                                        {/* end::Action*/}
+                                    </div>
+                                    {/* end::Time*/}
+                                </div>
+                                {/* end::Day*/}
+                                {/* begin::Day*/}
+                                <div id="kt_schedule_day_5" className="tab-pane fade show">
+                                    {/* begin::Time*/}
+                                    <div className="d-flex flex-stack position-relative mt-8">
+                                        {/* begin::Bar*/}
+                                        <div className="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+                                        {/* end::Bar*/}
+                                        {/* begin::Info*/}
+                                        <div className="fw-bold ms-5 text-gray-600">
+                                            {/* begin::Time*/}
+                                            <div className="fs-5">13:00 - 14:00
+                                            </div>
+                                            {/* end::Time*/}
+                                            {/* begin::Title*/}
+                                            <a href="#" className="fs-5 fw-bolder text-gray-800 text-hover-primary mb-2">Weekly Team Stand-Up</a>
+                                            {/* end::Title*/}
+                                            {/* begin::User*/}
+                                            <div className="text-gray-400">Contacts : &nbsp;
+                                                <a href="#">Karina Clarke</a></div>
+                                            {/* end::User*/}
+                                        </div>
+                                        {/* end::Info*/}
+                                        {/* begin::Action*/}
+                                        <a href="#" className="btn btn-bg-light btn-active-color-primary btn-sm"> <i className="bi bi-eye fs-1"></i>Voir Rapport</a>
+                                        {/* end::Action*/}
+                                    </div>
+                                    {/* end::Time*/}
+                                    {/* begin::Time*/}
+                                    <div className="d-flex flex-stack position-relative mt-8">
+                                        {/* begin::Bar*/}
+                                        <div className="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+                                        {/* end::Bar*/}
+                                        {/* begin::Info*/}
+                                        <div className="fw-bold ms-5 text-gray-600">
+                                            {/* begin::Time*/}
+                                            <div className="fs-5">12:00 - 13:00
+                                            </div>
+                                            {/* end::Time*/}
+                                            {/* begin::Title*/}
+                                            <a href="#" className="fs-5 fw-bolder text-gray-800 text-hover-primary mb-2">Team Backlog Grooming Session</a>
+                                            {/* end::Title*/}
+                                            {/* begin::User*/}
+                                            <div className="text-gray-400">Contacts : &nbsp;
+                                                <a href="#">Terry Robins</a></div>
+                                            {/* end::User*/}
+                                        </div>
+                                        {/* end::Info*/}
+                                        {/* begin::Action*/}
+                                        <a href="#" className="btn btn-bg-light btn-active-color-primary btn-sm"> <i className="bi bi-eye fs-1"></i>Voir Rapport</a>
+                                        {/* end::Action*/}
+                                    </div>
+                                    {/* end::Time*/}
+                                    {/* begin::Time*/}
+                                    <div className="d-flex flex-stack position-relative mt-8">
+                                        {/* begin::Bar*/}
+                                        <div className="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+                                        {/* end::Bar*/}
+                                        {/* begin::Info*/}
+                                        <div className="fw-bold ms-5 text-gray-600">
+                                            {/* begin::Time*/}
+                                            <div className="fs-5">14:30 - 15:30
+                                            </div>
+                                            {/* end::Time*/}
+                                            {/* begin::Title*/}
+                                            <a href="#" className="fs-5 fw-bolder text-gray-800 text-hover-primary mb-2">Development Team Capacity Review</a>
+                                            {/* end::Title*/}
+                                            {/* begin::User*/}
+                                            <div className="text-gray-400">Contacts : &nbsp;
+                                                <a href="#">Mark Randall</a></div>
+                                            {/* end::User*/}
+                                        </div>
+                                        {/* end::Info*/}
+                                        {/* begin::Action*/}
+                                        <a href="#" className="btn btn-bg-light btn-active-color-primary btn-sm"> <i className="bi bi-eye fs-1"></i>Voir Rapport</a>
+                                        {/* end::Action*/}
+                                    </div>
+                                    {/* end::Time*/}
+                                </div>
+                                {/* end::Day*/}
+                                {/* begin::Day*/}
+                                <div id="kt_schedule_day_6" className="tab-pane fade show">
+                                    {/* begin::Time*/}
+                                    <div className="d-flex flex-stack position-relative mt-8">
+                                        {/* begin::Bar*/}
+                                        <div className="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+                                        {/* end::Bar*/}
+                                        {/* begin::Info*/}
+                                        <div className="fw-bold ms-5 text-gray-600">
+                                            {/* begin::Time*/}
+                                            <div className="fs-5">13:00 - 14:00
+                                            </div>
+                                            {/* end::Time*/}
+                                            {/* begin::Title*/}
+                                            <a href="#" className="fs-5 fw-bolder text-gray-800 text-hover-primary mb-2">Sales Pitch Proposal</a>
+                                            {/* end::Title*/}
+                                            {/* begin::User*/}
+                                            <div className="text-gray-400">Contacts : &nbsp;
+                                                <a href="#">Walter White</a></div>
+                                            {/* end::User*/}
+                                        </div>
+                                        {/* end::Info*/}
+                                        {/* begin::Action*/}
+                                        <a href="#" className="btn btn-bg-light btn-active-color-primary btn-sm"> <i className="bi bi-eye fs-1"></i>Voir Rapport</a>
+                                        {/* end::Action*/}
+                                    </div>
+                                    {/* end::Time*/}
+                                    {/* begin::Time*/}
+                                    <div className="d-flex flex-stack position-relative mt-8">
+                                        {/* begin::Bar*/}
+                                        <div className="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+                                        {/* end::Bar*/}
+                                        {/* begin::Info*/}
+                                        <div className="fw-bold ms-5 text-gray-600">
+                                            {/* begin::Time*/}
+                                            <div className="fs-5">16:30 - 17:30
+                                            </div>
+                                            {/* end::Time*/}
+                                            {/* begin::Title*/}
+                                            <a href="#" className="fs-5 fw-bolder text-gray-800 text-hover-primary mb-2">Marketing Campaign Discussion</a>
+                                            {/* end::Title*/}
+                                            {/* begin::User*/}
+                                            <div className="text-gray-400">Contacts : &nbsp;
+                                                <a href="#">David Stevenson</a></div>
+                                            {/* end::User*/}
+                                        </div>
+                                        {/* end::Info*/}
+                                        {/* begin::Action*/}
+                                        <a href="#" className="btn btn-bg-light btn-active-color-primary btn-sm"> <i className="bi bi-eye fs-1"></i>Voir Rapport</a>
+                                        {/* end::Action*/}
+                                    </div>
+                                    {/* end::Time*/}
+                                    {/* begin::Time*/}
+                                    <div className="d-flex flex-stack position-relative mt-8">
+                                        {/* begin::Bar*/}
+                                        <div className="position-absolute h-100 w-4px bg-secondary rounded top-0 start-0"></div>
+                                        {/* end::Bar*/}
+                                        {/* begin::Info*/}
+                                        <div className="fw-bold ms-5 text-gray-600">
+                                            {/* begin::Time*/}
+                                            <div className="fs-5">12:00 - 13:00
+                                            </div>
+                                            {/* end::Time*/}
+                                            {/* begin::Title*/}
+                                            <a href="#" className="fs-5 fw-bolder text-gray-800 text-hover-primary mb-2">9 Degree Project Estimation Meeting</a>
+                                            {/* end::Title*/}
+                                            {/* begin::User*/}
+                                            <div className="text-gray-400">Contacts : &nbsp;
+                                                <a href="#">David Stevenson</a></div>
+                                            {/* end::User*/}
+                                        </div>
+                                        {/* end::Info*/}
+                                        {/* begin::Action*/}
+                                        <a href="#" className="btn btn-bg-light btn-active-color-primary btn-sm"> <i className="bi bi-eye fs-1"></i>Voir Rapport</a>
+                                        {/* end::Action*/}
+                                    </div>
+                                    {/* end::Time*/}
+                                </div>
+                                {/* end::Day*/}
+
+                            </div>
+                            {/* end::Tab Content*/}
+                        </div>
+                        {/* end::Card body*/}
+                    </div>
+
+                </div>
+                <div className='modal fade' id='kt_modal_new_target' aria-hidden='true'>
+                    <div className='modal-dialog modal-dialog-centered mw-900px'>
+                        <div className='modal-content'>
+                            <div className='modal-header'>
+                                <h2>Planning Hebdomadaire</h2>
+
+                                <div className='btn btn-sm btn-icon btn-active-color-primary' data-bs-dismiss='modal'>
+                                    <KTSVG path='/media/icons/duotune/arrows/arr061.svg' className='svg-icon-1' />
+                                </div>
+                            </div>
+
+                            <div className='modal-body py-lg-10 px-lg-10'>
+
+                                <div className="table-responsive h-500px">
+
+                                    <div id="kt_project_users_table_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
+                                        <div className="table-responsive">
+                                            <table className='table table-row-dashed table-row-gray-300 align-middle gs-0 gy-3'>
+                                                {/* begin::Table head */}
+                                                <thead>
+                                                    <tr className='fw-bolder text-muted'>
+                                                        <th className='min-w-200px'>Noms & prénoms</th>
+                                                        <th>Lundi</th>
+                                                        <th>Mardi</th>
+                                                        <th>Mercredi</th>
+                                                        <th>Jeudi</th>
+                                                        <th>Vendredi</th>
+                                                        <th>Samedi</th>
+                                                        <th>Dimanche</th>
+                                                    </tr>
+                                                </thead>
+                                                {/* end::Table head */}
+                                                {/* begin::Table body */}
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <div className='d-flex align-items-center'>
+                                                                <div className='d-flex justify-content-start flex-column'>
+                                                                    <a href='#' className='text-dark fw-bolder text-hover-primary fs-6'>
+                                                                        Yardima D. Hamed
+                                                                    </a>
+                                                                    <span className='text-muted fw-bold text-muted d-block fs-7'>
+                                                                        08 08 08 08 08
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Jour</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-danger">Nuit</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-warning">A.Midi</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Matin</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Matin</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Matin</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Matin</span>
+                                                        </td>
+                                                        
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div className='d-flex align-items-center'>
+                                                                <div className='d-flex justify-content-start flex-column'>
+                                                                    <a href='#' className='text-dark fw-bolder text-hover-primary fs-6'>
+                                                                        Yardima D. Hamed
+                                                                    </a>
+                                                                    <span className='text-muted fw-bold text-muted d-block fs-7'>
+                                                                        08 08 08 08 08
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Jour</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-danger">Nuit</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-warning">A.Midi</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Matin</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Matin</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Matin</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Matin</span>
+                                                        </td>
+                                                        
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div className='d-flex align-items-center'>
+                                                                <div className='d-flex justify-content-start flex-column'>
+                                                                    <a href='#' className='text-dark fw-bolder text-hover-primary fs-6'>
+                                                                        Koffi Moise
+                                                                    </a>
+                                                                    <span className='text-muted fw-bold text-muted d-block fs-7'>
+                                                                        08 08 08 08 08
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Jour</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-danger">Nuit</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-warning">A.Midi</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Matin</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Matin</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Matin</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Matin</span>
+                                                        </td>
+                                                        
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div className='d-flex align-items-center'>
+                                                                <div className='d-flex justify-content-start flex-column'>
+                                                                    <a href='#' className='text-dark fw-bolder text-hover-primary fs-6'>
+                                                                        Yardima D. Hamed
+                                                                    </a>
+                                                                    <span className='text-muted fw-bold text-muted d-block fs-7'>
+                                                                        08 08 08 08 08
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Jour</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-danger">Nuit</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-warning">A.Midi</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Matin</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Matin</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Matin</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Matin</span>
+                                                        </td>
+                                                        
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div className='d-flex align-items-center'>
+                                                                <div className='d-flex justify-content-start flex-column'>
+                                                                    <a href='#' className='text-dark fw-bolder text-hover-primary fs-6'>
+                                                                        Yardima D. Hamed
+                                                                    </a>
+                                                                    <span className='text-muted fw-bold text-muted d-block fs-7'>
+                                                                        08 08 08 08 08
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Jour</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-danger">Nuit</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-warning">A.Midi</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Matin</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Matin</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Matin</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Matin</span>
+                                                        </td>
+                                                        
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div className='d-flex align-items-center'>
+                                                                <div className='d-flex justify-content-start flex-column'>
+                                                                    <a href='#' className='text-dark fw-bolder text-hover-primary fs-6'>
+                                                                        Yardima D. Hamed
+                                                                    </a>
+                                                                    <span className='text-muted fw-bold text-muted d-block fs-7'>
+                                                                        08 08 08 08 08
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Jour</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-danger">Nuit</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-warning">A.Midi</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Matin</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Matin</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Matin</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Matin</span>
+                                                        </td>
+                                                        
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div className='d-flex align-items-center'>
+                                                                <div className='d-flex justify-content-start flex-column'>
+                                                                    <a href='#' className='text-dark fw-bolder text-hover-primary fs-6'>
+                                                                        Yardima D. Hamed
+                                                                    </a>
+                                                                    <span className='text-muted fw-bold text-muted d-block fs-7'>
+                                                                        08 08 08 08 08
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Jour</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-danger">Nuit</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-warning">A.Midi</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Matin</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Matin</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Matin</span>
+                                                        </td>
+                                                        <td className="text-black fw-bold fs-7">
+                                                            <span className="badge badge-light-primary">Matin</span>
+                                                        </td>
+                                                        
+                                                    </tr>
+                                                </tbody>
+                                                {/* end::Table body */}
+                                            </table>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
-
-
         </>
 
 
